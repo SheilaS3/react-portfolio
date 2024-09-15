@@ -51,7 +51,7 @@ export default class PortfolioManager extends Component {
     }
 
     handleEditFormSubmission() {
-        getPortfolioItems();
+        this.getPortfolioItems();
     }
 
     handleNewFormSubmission(portfolioItem) {

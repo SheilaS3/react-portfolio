@@ -56,7 +56,7 @@ export default class PortfolioForm extends Component {
     }
 
     componentDidUpdate() {
-        if (Object.keys(this.props.portfolioToEdit).lenght > 0) {
+        if (Object.keys(this.props.portfolioToEdit).length > 0) {
             const {
                 id,
                 name,
